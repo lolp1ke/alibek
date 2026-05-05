@@ -12,7 +12,7 @@ main() {
   rm -rf artifacts
 
   echo "Verifying installations..."
-  echo Zola: "$(zola version)"
+  echo Zola: "$(zola --version)"
   
   # https://gohugo.io/methods/page/gitinfo/#hosting-considerations
   # git fetch --recurse-submodules --unshallow
