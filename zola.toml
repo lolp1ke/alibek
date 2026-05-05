@@ -1,0 +1,56 @@
+# The URL the site will be built for
+base_url = "https://alibek.til-lang.org"
+title = "alibek"
+description = "personal blog webpage"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+generate_feeds = true
+minify_html = true
+
+theme = "apollo"
+taxonomies = [{ name = "tags" }]
+
+default_language = "en"
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+[search]
+include_title = true
+include_description = true
+include_path = true
+include_content = true
+index_format = "elasticlunr_json"
+
+[markdown]
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+
+[extra]
+# Put all your custom variables here
+theme = "toggle"
+
+toc = true
+fancy_code = true
+mathjax = true
+dynamic_note = true
+
+menu = [
+  { name = "home", url = "/" },
+  { name = "projects", url = "/projects" },
+  { name = "posts", url = "/posts" },
+  { name = "about", url = "/about" },
+  { name = "tags", url = "/tags" },
+]
+socials = [
+  { icon = "github", name = "GitHub", url = "https://github.com/lolp1ke" },
+  { icon = "instagram", name = "Instagram", url = "https://instagram/lolp1ke" },
+  { icon = "telegram", name = "Telegram", url = "https://t.me/lolp1ke" },
+  { icon = "twitter", name = "X", url = "https://x.com/lolp1ke_" },
+  { icon = "gitlab", name = "GitLab", url = "https://gitlab.com/lolp1ke" },
+]
+
+[extra.taxonomies]
+sort_by = "page_count"
+reverse = true
