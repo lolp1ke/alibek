@@ -51,6 +51,9 @@ socials = [
   { icon = "gitlab", name = "GitLab", url = "https://gitlab.com/lolp1ke" },
 ]
 
+repo_view = true
+repo_url = "https://github.com/lolp1ke/alibek/tree/master/content/"
+
 [extra.taxonomies]
 sort_by = "page_count"
 reverse = true
