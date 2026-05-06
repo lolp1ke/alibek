@@ -1,7 +1,8 @@
 +++
 title = "projects"
 sort_by = "weight"
-template = "cards.html"
+template = "projects_cards.html"
+page_template = "project_page.html"
 
 [extra]
 cards_columns = 2

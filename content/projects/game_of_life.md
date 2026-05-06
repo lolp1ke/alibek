@@ -7,7 +7,6 @@ date = 2025-03-28
 [taxonomies]
 tags = ["projects", "rust", "game", "tui"]
 
-
 [extra]
 github = "https://github.com/lolp1ke/jazba"
 tags = ["projects", "rust", "game", "tui"]
